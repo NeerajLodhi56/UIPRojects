@@ -28,7 +28,7 @@ function update(){
         } else{
             item.classList.remove('active')
         }
-})
+}) 
 
 const actives= document.querySelectorAll('.active')
 console.log((actives.length-1)/  (circle.length-1)*100)
